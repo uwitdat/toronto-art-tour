@@ -21,7 +21,7 @@
         <img src="img/logo.png" alt="logo" class="logo">
 
         <form action="#" class="search">
-          <input type="text" class="search__input" placeholder="search tours">
+          <input type="text" class="search__input" placeholder="Search Tours">
           <button class="search__button">
             <svg class="search__icon">
               <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
@@ -50,10 +50,96 @@
       </header>
       <div class="content">
         <nav class="sidebar">
-          Navigation
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"/>
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-chat"/>
+                </svg>
+                <span>FAQ's</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-thumbs-up"/>
+                </svg>
+                <span>Reviews</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"/>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+
+
+          </ul>
+
+          <div class="legal">
+            &copy; 2021 original design by Jonas Schmedtman
+          </div>
         </nav>
+
+
+
         <main class="hotel-view">
-          Hotel View
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img src="img/art-1.jpg" alt="art1" class="gallery__photo">
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/art-2.jpg" alt="art2" class="gallery__photo">
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/art-3.jpg" alt="art3" class="gallery__photo">
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">
+              Toronto Art Tour
+            </h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"/>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"/>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"/>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"/>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"/>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"/>
+              </svg>
+              <button class="btn-inline">Toronto, Ontario</button>
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-count">426 votes</div>
+            </div>
+          </div>
         </main>
       </div>
     </div>
