@@ -1,0 +1,37 @@
+/*
+COLORS
+
+Primary: #3C4F76
+Primary light: #DDDBF1
+Primary dark: #383F51
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+font-family: "Poiret One", cursive;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px, 10/16 = 62.5
+}
+
+body {
+  background-color: #3c4f76;
+}
